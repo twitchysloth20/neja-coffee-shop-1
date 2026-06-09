@@ -1,0 +1,11 @@
+.hero__headline {
+  font-size: var(--text-3xl);
+}
+
+.hero__subheadline {
+  font-size: var(--text-xl);
+}
+
+.hero__supporting {
+  font-size: var(--text-md);
+}
