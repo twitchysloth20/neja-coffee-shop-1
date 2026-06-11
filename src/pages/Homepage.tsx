@@ -1,4 +1,4 @@
-import HeroSection, { type INJHeroBackground } from '../components/homepage/hero/HeroSection'
+import { NJHeroSection1, type INJHeroBackground } from '@neja-digital/react-ui'
 
 export default function Homepage() {
   const heroBackground: INJHeroBackground = {
@@ -10,7 +10,7 @@ export default function Homepage() {
 
   return (
     <>
-      <HeroSection
+      <NJHeroSection1
         njBackground={heroBackground}
         njOverlay={0.15}
         njBlur={8}
