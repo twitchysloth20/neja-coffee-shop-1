@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@neja-digital/react-ui':
         specifier: github:twitchysloth20/neja-digital-react-ui#master
-        version: https://codeload.github.com/twitchysloth20/neja-digital-react-ui/tar.gz/7d84f9f0299a1fcbc0263282192152a1d05597db(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        version: https://codeload.github.com/twitchysloth20/neja-digital-react-ui/tar.gz/6aa5c9ae70fce784960f8aec1225cfdbe1439327(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react:
         specifier: ^19.2.6
         version: 19.2.7
@@ -239,8 +239,8 @@ packages:
     resolution: {gitHosted: true, tarball: https://codeload.github.com/twitchysloth20/neja-digital-css/tar.gz/2d8216d5114fd153071a93dbf44e75f63c4a081e}
     version: 0.0.1
 
-  '@neja-digital/react-ui@https://codeload.github.com/twitchysloth20/neja-digital-react-ui/tar.gz/7d84f9f0299a1fcbc0263282192152a1d05597db':
-    resolution: {gitHosted: true, integrity: sha512-QL8dItHLNNlwH0cKRpmmlwRXF/qKsi7pQX0AqwKMhmBnw5Vmel7QkJSbNYw9G9k0m4/CLbfwweyI3RsCcXNFnQ==, tarball: https://codeload.github.com/twitchysloth20/neja-digital-react-ui/tar.gz/7d84f9f0299a1fcbc0263282192152a1d05597db}
+  '@neja-digital/react-ui@https://codeload.github.com/twitchysloth20/neja-digital-react-ui/tar.gz/6aa5c9ae70fce784960f8aec1225cfdbe1439327':
+    resolution: {gitHosted: true, integrity: sha512-+IdNtZSf/GLJZnkB8pzy8O+72utCmrnE0a1vFwUsslMslnHS0tYBjZ/mSBWGjOmxGdJVDCjEmW4WvuHhDFHt7Q==, tarball: https://codeload.github.com/twitchysloth20/neja-digital-react-ui/tar.gz/6aa5c9ae70fce784960f8aec1225cfdbe1439327}
     version: 0.0.1
     peerDependencies:
       react: ^19.2.6
@@ -1222,7 +1222,7 @@ snapshots:
 
   '@neja-digital/css@https://codeload.github.com/twitchysloth20/neja-digital-css/tar.gz/2d8216d5114fd153071a93dbf44e75f63c4a081e': {}
 
-  '@neja-digital/react-ui@https://codeload.github.com/twitchysloth20/neja-digital-react-ui/tar.gz/7d84f9f0299a1fcbc0263282192152a1d05597db(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@neja-digital/react-ui@https://codeload.github.com/twitchysloth20/neja-digital-react-ui/tar.gz/6aa5c9ae70fce784960f8aec1225cfdbe1439327(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
       '@neja-digital/css': https://codeload.github.com/twitchysloth20/neja-digital-css/tar.gz/2d8216d5114fd153071a93dbf44e75f63c4a081e
       react: 19.2.7

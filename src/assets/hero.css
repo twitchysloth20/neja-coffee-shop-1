@@ -1,0 +1,14 @@
+.nj-hero__content {
+  border-radius: var(--border-radius-medium);
+
+  .nj-hero__supporting {
+    font-style: italic;
+    text-align: right;
+  }
+
+  .nj-hero__cta-buttons {
+    display: flex;
+    gap: var(--spacer-xs);
+    justify-content: right;
+  }
+}

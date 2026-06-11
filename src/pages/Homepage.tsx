@@ -1,25 +1,25 @@
-import { NJHeroSection1, type INJHeroBackground } from '@neja-digital/react-ui'
+import NJAboutSection1, { type INJAboutImageProp } from '../components/homepage/AboutSection'
+import HeroSection from '../components/homepage/HeroSection'
 
 export default function Homepage() {
-  const heroBackground: INJHeroBackground = {
-    mobileBg: '/src/static/images/hero-image-2-mobile.jpg',
-    tabletBg: '/src/static/images/hero-image-2-tablet.jpg',
-    tabletHBg: '/src/static/images/hero-image-2-tablet-2.jpg',
-    desktopBg: '/src/static/images/hero-image-2-desktop.jpg',
+  const mobileImage = '/src/static/images/about-image-34-mobile.jpg 460w'
+  const tabletImage = '/src/static/images/about-image-34-tablet.jpg 600w'
+
+  const imgData: INJAboutImageProp = {
+    srcSet: `${mobileImage}, ${tabletImage}`,
+    sizes: '(width >= 600px) 600px, 460px',
+    src: '/src/static/images/about-image-34-mobile.jpg',
+    alt: 'urban coffee about',
   }
 
   return (
     <>
-      <NJHeroSection1
-        njBackground={heroBackground}
-        njOverlay={0.15}
-        njBlur={8}
-        njHeadline="Coffee made for slow moments in a fast world"
-        njSubheadline="Small-batch roasted beans, thoughtfully sourced, and brewed for clarity, comfort and focus"
-        njSupporting="A modern neighborhood coffee shop focused on quality, consistency, and calm space"
-        njCtaSecondary="Explore menu"
-        njCtaPrimary="Book a table"
-      />
+      <HeroSection />
+      <main className="main-section">
+        <div className="content-wrapper">
+          <NJAboutSection1 njImgData={imgData} />
+        </div>
+      </main>
     </>
   )
 }

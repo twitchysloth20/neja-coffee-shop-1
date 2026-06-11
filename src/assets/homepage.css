@@ -1,0 +1,12 @@
+@import "./about.css";
+@import "./hero.css";
+
+.content-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: var(--spacer-lg);
+
+  @media (min-width: 600px /* var(--tablet) */) {
+    padding: var(--spacer-2xl);
+  }
+}

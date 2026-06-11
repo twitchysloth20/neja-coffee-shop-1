@@ -1,3 +1,5 @@
+@import "./homepage.css";
+
 html, body {
   margin: 0;
 }
@@ -14,4 +16,8 @@ h1, h2, h3, h4, h5, h6 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+
+.theme-provider {
+  background-color: var(--background);
 }
