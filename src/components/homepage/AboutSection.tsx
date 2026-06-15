@@ -1,54 +1,41 @@
-import classnames from 'classnames'
+import { type INJAboutImageProp, NJAboutSection1 } from '@neja-digital/react-ui'
 
-export interface INJAboutImageProp {
-  srcSet: string
-  sizes: string
-  src: string
-  alt: string
-}
+export default function AboutSection() {
+  const mobileImage = '/src/static/images/about-image-34-mobile.jpg 460w'
+  const tabletImage = '/src/static/images/about-image-34-tablet.jpg 600w'
+  
+  const imgData: INJAboutImageProp = {
+    srcSet: `${mobileImage}, ${tabletImage}`,
+    sizes: '(width >= 600px) 600px, 460px',
+    src: '/src/static/images/about-image-34-mobile.jpg',
+    alt: 'urban coffee about',
+  }
 
-export type TNJAboutImagePositionProp = 'left' | 'right'
-
-export interface INJAboutProps {
-  children?: React.ReactNode
-  njImgData?: INJAboutImageProp
-  njImgPos?: TNJAboutImagePositionProp
-  njAboutTitle?: string
-  njAboutContent?: React.ReactNode
-}
-
-export default function NJAboutSection1({
-  children,
-  njImgData,
-  njImgPos,
-  njAboutTitle,
-  njAboutContent,
-}: INJAboutProps) {
-  const imgPosClass = njImgPos ? `image-${njImgPos}` : ''
-  const sectionClassname = classnames('nj-about', imgPosClass)
-
-  const propsContent = (
+  const aboutContent = (
     <>
-      <div className="nj-about__text">
-        <h2 className="nj-about__title">
-          { njAboutTitle }
-        </h2>
-        <div className="nj-about__description">
-          { njAboutContent }
-        </div>
-      </div>
-      {
-        njImgData &&
-        <div className="nj-about__image">
-          <img { ...njImgData } />
-        </div>
-      }
+      <p>
+        We believe great coffee starts long before it reaches your cup. From carefully selected beans and
+        responsible sourcing to precise roasting and brewing, every step matters. Our goal is not only to serve
+        exceptional coffee, but to create an experience people look forward to returning to.
+      </p>
+      <p>
+        We work with trusted producers and small farms that share our commitment to quality and sustainability.
+        Each coffee is chosen  for its unique character, allowing us to offer flavors that are approachable,
+        balanced and memorable. By roasting in small batches, we maintain consistency while preserving the
+        qualities that make each origin special
+      </p>
+      <p>
+        Everything we do is guided by a straightforward philosophy: use quality ingredients, pay attention to the
+        details and create a space where people feel at home.
+      </p>
     </>
   )
 
   return (
-    <section className={sectionClassname}>
-      { children ? children : propsContent }
-    </section>
+    <NJAboutSection1
+      njImgPos="left"
+      njImgData={imgData}
+      njAboutTitle="More than just coffee"
+      njAboutContent={aboutContent} />
   )
 }
