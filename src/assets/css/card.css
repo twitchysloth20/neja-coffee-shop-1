@@ -1,0 +1,15 @@
+.nj-card {
+  &.raised-emphasized {
+    box-shadow: var(--box-shadow-medium);
+  }
+
+  @media (min-width: 1024px /* var(--desktop) */) {
+    &.raised-emphasized {
+      box-shadow: var(--box-shadow-emphasized);
+    }
+
+    &:not(.raised-emphasized) {
+      transform: scale(0.875);
+    }
+  }
+}

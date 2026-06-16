@@ -2,10 +2,10 @@ import { type INJHeroBackground, NJButton, NJHeroSection1 } from '@neja-digital/
 
 export default function HeroSection() {
   const heroBackground: INJHeroBackground = {
-    mobileBg: '/src/static/images/hero-image-2-mobile.jpg',
-    tabletBg: '/src/static/images/hero-image-2-tablet.jpg',
-    tabletHBg: '/src/static/images/hero-image-2-tablet-2.jpg',
-    desktopBg: '/src/static/images/hero-image-2-desktop.jpg',
+    mobileBg: '/src/assets/static/images/hero-image-2-mobile.jpg',
+    tabletBg: '/src/assets/static/images/hero-image-2-tablet.jpg',
+    tabletHBg: '/src/assets/static/images/hero-image-2-tablet-2.jpg',
+    desktopBg: '/src/assets/static/images/hero-image-2-desktop.jpg',
   }
 
   const ctaButtons = (

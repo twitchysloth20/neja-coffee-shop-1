@@ -1,40 +1,39 @@
-import type { INJCardProps } from '../Card'
-import NJCard from '../Card'
+import { NJCard, type INJCardProps } from '@neja-digital/react-ui'
+import '/src/assets/css/card.css'
 
-export default function NJFeaturedSection() {
-  const featuredDrinks: INJCardProps[] = [{
-    njTitle: 'Signature Espresso',
-    njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
-      'Sit amet consectetur adipiscing elit quisque faucibus ex.',
-    njImgData: '/src/static/images/featured-espresso-43.jpg',
-  }, {
-    njTitle: 'Flat White',
-    njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
-      'Sit amet consectetur adipiscing elit quisque faucibus ex.',
-    njImgData: '/src/static/images/featured-flatwhite-43.jpg',
-    njRaised: 'emphasized',
-  }, {
-    njTitle: 'Cold brew',
-    njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
-      'Sit amet consectetur adipiscing elit quisque faucibus ex.',
-    njImgData: '/src/static/images/featured-coldbrew-43.jpg',
-  }]
+export interface INJFeaturedProps {
+  children?: React.ReactNode
+  njTitle?: string
+  njFeaturedItems?: INJCardProps[]
+  njCtaButtons?: React.ReactNode
+}
 
-  const featuredCardsJsx = featuredDrinks.map(drink => (
+export default function NJFeaturedSection({ children, njTitle, njFeaturedItems, njCtaButtons }: INJFeaturedProps) {
+  const featuredCardsJsx = njFeaturedItems ? njFeaturedItems.map(item => (
     <NJCard
-      key={drink.njTitle}
+      key={item.njTitle}
       njRounded="medium"
       njRaised="medium"
-      { ...drink }
+      { ...item }
     />
-  ))
+  )) : []
 
   return (
     <section className="nj-featured">
-      <h2 className="nj-featured__title">
-        Check some of our finest drinks
-      </h2>
-      { featuredCardsJsx }
+      { children && <>{children}</>}
+      { !children &&
+      <>
+        <h2 className="nj-featured__title">
+          { njTitle }
+        </h2>
+        <div className="nj-featured__items">
+          { featuredCardsJsx }
+        </div>
+        <div className="nj-featured__cta-buttons">
+          { njCtaButtons }
+        </div>
+      </>
+      }
     </section>
   )
 }
