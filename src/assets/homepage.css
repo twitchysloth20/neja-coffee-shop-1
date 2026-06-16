@@ -1,4 +1,5 @@
 @import "./hero.css";
+@import "./featured.css";
 
 .content-wrapper {
   max-width: 1440px;
@@ -8,4 +9,8 @@
   @media (min-width: 600px /* var(--tablet) */) {
     padding: var(--spacer-2xl);
   }
+}
+
+.nj-featured {
+  margin-block: var(--spacer-3xl);
 }

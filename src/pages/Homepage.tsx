@@ -1,4 +1,5 @@
 import AboutSection from '../components/homepage/AboutSection'
+import NJFeaturedSection from '../components/homepage/FeaturedSection'
 import HeroSection from '../components/homepage/HeroSection'
 
 export default function Homepage() {
@@ -9,6 +10,7 @@ export default function Homepage() {
       <main className="main-section">
         <div className="content-wrapper">
           <AboutSection />
+          <NJFeaturedSection />
         </div>
       </main>
     </>
