@@ -9,3 +9,7 @@
     padding: var(--spacer-2xl);
   }
 }
+
+.nj-featured {
+  margin-block: var(--spacer-3xl);
+}

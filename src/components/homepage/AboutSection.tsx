@@ -1,13 +1,13 @@
-import { type INJAboutImageProp, NJAboutSection1 } from '@neja-digital/react-ui'
+import { type INJImageProp, NJAboutSection1 } from '@neja-digital/react-ui'
 
 export default function AboutSection() {
-  const mobileImage = '/src/static/images/about-image-34-mobile.jpg 460w'
-  const tabletImage = '/src/static/images/about-image-34-tablet.jpg 600w'
+  const mobileImage = '/src/assets/static/images/about-image-34-mobile.jpg 460w'
+  const tabletImage = '/src/assets/static/images/about-image-34-tablet.jpg 600w'
   
-  const imgData: INJAboutImageProp = {
+  const imgData: INJImageProp = {
     srcSet: `${mobileImage}, ${tabletImage}`,
     sizes: '(width >= 600px) 600px, 460px',
-    src: '/src/static/images/about-image-34-mobile.jpg',
+    src: '/src/assets/static/images/about-image-34-mobile.jpg',
     alt: 'urban coffee about',
   }
 

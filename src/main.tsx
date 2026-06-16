@@ -5,7 +5,7 @@ import type { TNJTheme } from '@neja-digital/react-ui'
 import { NJSystem } from '@neja-digital/react-ui'
 import '@neja-digital/react-ui/react-ui.css'
 import Homepage from './pages/Homepage'
-import './assets/main.css'
+import './assets/css/main.css'
 
 const theme: TNJTheme = {
   colors: {
