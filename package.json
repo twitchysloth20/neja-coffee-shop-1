@@ -19,7 +19,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@neja-digital/react-ui": "git://github.com/neja-digital/react-ui#section/text",
+    "@neja-digital/react-ui": "0.3.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-router": "^7.16.0"
