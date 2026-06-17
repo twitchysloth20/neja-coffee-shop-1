@@ -4,11 +4,18 @@
 
 .nj-text-section__second {
   flex-grow: 1;
-  flex-shrink: 0;
   text-align: center;
+
+  @media (min-width: 768px /* var(--small-laptop) */) {
+    flex-shrink: 0;
+  }
 
   .nj-card {
     margin: 0 auto;
+
+    .nj-card__title {
+      margin-top: var(--spacer-md);
+    }
   }
 }
 

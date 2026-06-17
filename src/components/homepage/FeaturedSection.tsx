@@ -13,6 +13,7 @@ export default function NJFeaturedSection() {
     njRounded: 'medium',
     njRaised: 'medium',
     njColor: 'surface',
+    njSize: 'large',
   }, {
     njTitle: 'Flat White',
     njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
@@ -24,6 +25,7 @@ export default function NJFeaturedSection() {
     njRounded: 'medium',
     njRaised: 'emphasized',
     njColor: 'surface',
+    njSize: 'large',
   }, {
     njTitle: 'Cold brew',
     njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
@@ -35,6 +37,7 @@ export default function NJFeaturedSection() {
     njRounded: 'medium',
     njRaised: 'medium',
     njColor: 'surface',
+    njSize: 'large',
   }]
 
   const featuredCtaButton = (

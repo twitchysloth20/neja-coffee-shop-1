@@ -1,4 +1,4 @@
-import { type INJImageProps, NJSplitSection1 } from '@neja-digital/react-ui'
+import { type INJImageProps, NJImageSection1 } from '@neja-digital/react-ui'
 
 export default function AboutSection() {
   const mobileImage = '/src/assets/static/images/about-image-34-mobile.jpg 460w'
@@ -32,7 +32,7 @@ export default function AboutSection() {
   )
 
   return (
-    <NJSplitSection1
+    <NJImageSection1
       njImgPos="right"
       njImgData={imgData}
       njTitle="More than just coffee"

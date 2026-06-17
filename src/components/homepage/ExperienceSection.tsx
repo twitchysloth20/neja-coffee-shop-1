@@ -1,4 +1,4 @@
-import { NJButton, NJCard } from '@neja-digital/react-ui'
+import { NJButton, NJCard, NJTextSection1 } from '@neja-digital/react-ui'
 
 export default function ExperienceSection() {
   const contentJsx = (
@@ -25,7 +25,7 @@ export default function ExperienceSection() {
       <li>High-speed Wi-Fi</li>
       <li>Power outlets at most seats</li>
       <li>Low-volume ambient music</li>
-      <li>Work-friendly tables and lounge seating</li>
+      <li>Work-friendly tables and comfortable seating</li>
     </ul>
   )
 
@@ -37,6 +37,7 @@ export default function ExperienceSection() {
       njRaised="medium"
       njColor="secondary"
       njRounded="medium"
+      njSize="large"
     />
   )
 
