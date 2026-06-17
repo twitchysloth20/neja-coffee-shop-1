@@ -5,3 +5,7 @@ allowBuilds:
   "@neja-digital/react-ui": true
 
 blockExoticSubdeps: false
+
+minimumReleaseAgeExclude:
+  - '@neja-digital/css'
+  - '@neja-digital/react-ui'

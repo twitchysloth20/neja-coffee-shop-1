@@ -1,0 +1,5 @@
+.nj-featured__items {
+  @media (min-width: 600px /* var(--tablet) */) {
+    margin-block: calc(2 * var(--spacer-2xl));
+  }
+}

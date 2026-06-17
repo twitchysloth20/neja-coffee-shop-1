@@ -8,8 +8,8 @@
       box-shadow: var(--box-shadow-emphasized);
     }
 
-    &:not(.raised-emphasized) {
-      transform: scale(0.875);
+    &.raised-emphasized {
+      transform: scale(1.125);
     }
   }
 }
