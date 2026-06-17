@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@neja-digital/react-ui':
-        specifier: 0.2.1
-        version: 0.2.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: git://github.com/neja-digital/react-ui#section/text
+        version: https://codeload.github.com/neja-digital/react-ui/tar.gz/2ad0a2feaf8118754cdd6c2b05a366e945b89408(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react:
         specifier: ^19.2.6
         version: 19.2.7
@@ -235,11 +235,13 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@neja-digital/css@0.2.1':
-    resolution: {integrity: sha512-M1KwpRgWKCfY6YrGkLa8KZSN6LRv2dB/djx6H0sGiHZHO3LeRzV3rfiOgJ3aH/cMPjlG9p/+pmsxq1UNYDYQlQ==, tarball: https://npm.pkg.github.com/download/@neja-digital/css/0.2.1/a2cf1bd87fa3bc08124667a15f4149d696bb28a4}
+  '@neja-digital/css@https://codeload.github.com/neja-digital/css/tar.gz/97cc9ff1e4bda528b4effbe13adbd1ab8bc3ebb2':
+    resolution: {gitHosted: true, integrity: sha512-WkUoX0xga3PIko8mNY5pLixE3AofDz1oM3ULWPsammmGFmfpJzW6P3cwe55nFisIzMnlh+waYmdmpgBOofwNmQ==, tarball: https://codeload.github.com/neja-digital/css/tar.gz/97cc9ff1e4bda528b4effbe13adbd1ab8bc3ebb2}
+    version: 0.3.0
 
-  '@neja-digital/react-ui@0.2.1':
-    resolution: {integrity: sha512-cQ5Gyr+LrEUzgTp8O8G8t8CBS09k2CTKAULLku4edG44ZqT9Zw+WNRxxdOFwu4u90I76JgaddStQ1xZACMZhOQ==, tarball: https://npm.pkg.github.com/download/@neja-digital/react-ui/0.2.1/f82d99d96c1434badf5a3ef57d71baf4bd7f58f8}
+  '@neja-digital/react-ui@https://codeload.github.com/neja-digital/react-ui/tar.gz/2ad0a2feaf8118754cdd6c2b05a366e945b89408':
+    resolution: {gitHosted: true, integrity: sha512-duoHq4q1ddRUtmvNnF50kRWMZG1FRXEPEl/Eek2UDbJtuk3EVeZ4zXu2SdETbIpJLPdFs+lyNb7scZbvaeC++Q==, tarball: https://codeload.github.com/neja-digital/react-ui/tar.gz/2ad0a2feaf8118754cdd6c2b05a366e945b89408}
+    version: 0.2.6
     peerDependencies:
       react: ^19.2.6
       react-dom: ^19.2.6
@@ -1218,11 +1220,11 @@ snapshots:
       '@tybys/wasm-util': 0.10.2
     optional: true
 
-  '@neja-digital/css@0.2.1': {}
+  '@neja-digital/css@https://codeload.github.com/neja-digital/css/tar.gz/97cc9ff1e4bda528b4effbe13adbd1ab8bc3ebb2': {}
 
-  '@neja-digital/react-ui@0.2.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@neja-digital/react-ui@https://codeload.github.com/neja-digital/react-ui/tar.gz/2ad0a2feaf8118754cdd6c2b05a366e945b89408(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
-      '@neja-digital/css': 0.2.1
+      '@neja-digital/css': https://codeload.github.com/neja-digital/css/tar.gz/97cc9ff1e4bda528b4effbe13adbd1ab8bc3ebb2
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
 

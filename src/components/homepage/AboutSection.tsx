@@ -1,10 +1,10 @@
-import { type INJImageProp, NJAboutSection1 } from '@neja-digital/react-ui'
+import { type INJImageProps, NJSplitSection1 } from '@neja-digital/react-ui'
 
 export default function AboutSection() {
   const mobileImage = '/src/assets/static/images/about-image-34-mobile.jpg 460w'
   const tabletImage = '/src/assets/static/images/about-image-34-tablet.jpg 600w'
   
-  const imgData: INJImageProp = {
+  const imgData: INJImageProps = {
     srcSet: `${mobileImage}, ${tabletImage}`,
     sizes: '(width >= 600px) 600px, 460px',
     src: '/src/assets/static/images/about-image-34-mobile.jpg',
@@ -32,10 +32,10 @@ export default function AboutSection() {
   )
 
   return (
-    <NJAboutSection1
-      njImgPos="left"
+    <NJSplitSection1
+      njImgPos="right"
       njImgData={imgData}
-      njAboutTitle="More than just coffee"
-      njAboutContent={aboutContent} />
+      njTitle="More than just coffee"
+      njContent={aboutContent} />
   )
 }

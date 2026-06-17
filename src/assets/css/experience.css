@@ -1,0 +1,19 @@
+.nj-text-section__first {
+  flex-grow: 0;
+}
+
+.nj-text-section__second {
+  flex-grow: 1;
+  flex-shrink: 0;
+  text-align: center;
+
+  .nj-card {
+    margin: 0 auto;
+  }
+}
+
+.nj-text-section__highlights {
+  .nj-card .highlights-list {
+    text-align: initial;
+  }
+}

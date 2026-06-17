@@ -1,3 +1,5 @@
+@import "./experience.css";
+@import "./featured.css";
 @import "./hero.css";
 
 .content-wrapper {
