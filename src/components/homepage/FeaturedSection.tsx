@@ -1,4 +1,4 @@
-import { NJButton, NJFeaturedSection1, type INJCardProps } from '@neja-digital/react-ui'
+import { NJButton, NJFeaturedSection1, NJFullSection, type INJCardProps } from '@neja-digital/react-ui'
 import '/src/assets/css/card.css'
 
 export default function NJFeaturedSection() {
@@ -47,10 +47,13 @@ export default function NJFeaturedSection() {
   )
 
   return (
-    <NJFeaturedSection1
-      njTitle="Check some of our finest drinks"
-      njFeaturedItems={featuredDrinks}
-      njCtaButtons={featuredCtaButton}
-    />
+    <NJFullSection>
+      <NJFeaturedSection1
+        className="content-wrapper"
+        njTitle="Check some of our finest drinks"
+        njFeaturedItems={featuredDrinks}
+        njCtaButtons={featuredCtaButton}
+      />
+    </NJFullSection>
   )
 }

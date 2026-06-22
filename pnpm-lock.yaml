@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@neja-digital/react-ui':
-        specifier: 0.3.0
-        version: 0.3.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: 0.3.5
+        version: 0.3.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       react:
         specifier: ^19.2.6
         version: 19.2.7
@@ -235,11 +235,11 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@neja-digital/css@0.3.0':
-    resolution: {integrity: sha512-CYcgO3JpjL80n6nqrXOgme4qV/lUpNxT5Xm3/puC9j+5+jJL+6/HTKvau/VDznZigleI+POawC0+MpkT3dMl3w==, tarball: https://npm.pkg.github.com/download/@neja-digital/css/0.3.0/6d999fc800b4f28d58b0ae9aee917fa0b16e4247}
+  '@neja-digital/css@0.3.2':
+    resolution: {integrity: sha512-c+GEQguh/DygP98/NbhIthG4IN0R8TakLblUYUCdgoVpYlW/EIMnQN7t2n6DKHHPUVh2+z8qekmeQDslhNMmjA==, tarball: https://npm.pkg.github.com/download/@neja-digital/css/0.3.2/e55c10f72e61b80f6ba9e90f30d8ebf6c44e8c3b}
 
-  '@neja-digital/react-ui@0.3.0':
-    resolution: {integrity: sha512-DRCzG7UCZFtDAp3u0ouwyvH3go+HVl/znUoAfhNj3A4gpfTTafvdOPLvjnXI0YMaSzlP3HZNvGNjVnae6qqPaw==, tarball: https://npm.pkg.github.com/download/@neja-digital/react-ui/0.3.0/2eed17303b3c119447836398cc6b16574b8cf899}
+  '@neja-digital/react-ui@0.3.5':
+    resolution: {integrity: sha512-zmQ8RKRF3JCF6z0GKH9lNArMY5GSM48nogMumAcyEze1c4ZVR8kaeDtx3E1Lh/JjB3w6ier4uZEVWGevJ5w96g==, tarball: https://npm.pkg.github.com/download/@neja-digital/react-ui/0.3.5/2c0be69b8fc0ed5d849b14c4215e831c87ee20f1}
     peerDependencies:
       react: ^19.2.6
       react-dom: ^19.2.6
@@ -1218,11 +1218,11 @@ snapshots:
       '@tybys/wasm-util': 0.10.2
     optional: true
 
-  '@neja-digital/css@0.3.0': {}
+  '@neja-digital/css@0.3.2': {}
 
-  '@neja-digital/react-ui@0.3.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@neja-digital/react-ui@0.3.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
-      '@neja-digital/css': 0.3.0
+      '@neja-digital/css': 0.3.2
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
 

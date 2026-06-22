@@ -1,4 +1,4 @@
-import { NJButton, NJCard, NJTextSection1 } from '@neja-digital/react-ui'
+import { NJButton, NJCard, NJFullSection, NJTextSection1, type TNJCardProps } from '@neja-digital/react-ui'
 
 export default function ExperienceSection() {
   const contentJsx = (
@@ -25,20 +25,24 @@ export default function ExperienceSection() {
       <li>High-speed Wi-Fi</li>
       <li>Power outlets at most seats</li>
       <li>Low-volume ambient music</li>
-      <li>Work-friendly tables and comfortable seating</li>
+      <li>Some of the best coffee in town</li>
     </ul>
   )
 
+  const highlightsProps: TNJCardProps = {
+    njTitle: 'Highlights',
+    njContent: highlightsContentJsx,
+    njImgData: {
+      src: '/src/assets/static/images/highlights.jpg',
+      alt: 'coffee shop best features',
+    },
+    njRounded: 'medium',
+    njRaised: 'medium',
+    njColor: 'surface',
+  }
+
   const highlightsJsx = (
-    <NJCard
-      njTitle="Highlights"
-      njText="Check our best features"
-      njContent={highlightsContentJsx}
-      njRaised="medium"
-      njColor="secondary"
-      njRounded="medium"
-      njSize="large"
-    />
+    <NJCard {...highlightsProps} />
   )
 
   const ctaButtonsJsx = (
@@ -48,12 +52,16 @@ export default function ExperienceSection() {
   )
 
   return (
-    <NJTextSection1
-      njTitle="The Experience"
-      njContent={contentJsx}
-      njHighlights={highlightsJsx}
-      njCtaButtons={ctaButtonsJsx}
-      njDirection="reverse"
-    />
+    <NJFullSection>
+      <NJTextSection1
+        className="content-wrapper"
+        njTitle="The Experience"
+        njContent={contentJsx}
+        njHighlights={highlightsJsx}
+        njCtaButtons={ctaButtonsJsx}
+        njDirection="reverse"
+        njCtaButtonsPos="first"
+      />
+    </NJFullSection>
   )
 }

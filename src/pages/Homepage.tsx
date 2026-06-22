@@ -8,12 +8,10 @@ export default function Homepage() {
   return (
     <>
       <HeroSection />
-      <main className="main-section">
-        <div className="content-wrapper">
-          <AboutSection />
-          <FeaturedSection />
-          <ExperienceSection />
-        </div>
+      <main className="main-content">
+        <FeaturedSection />
+        <AboutSection />
+        <ExperienceSection />
       </main>
     </>
   )

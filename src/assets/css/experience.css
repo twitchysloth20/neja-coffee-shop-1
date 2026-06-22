@@ -24,3 +24,12 @@
     text-align: initial;
   }
 }
+
+.nj-text-section__cta-buttons {
+  text-align: center;
+  margin-top: var(--spacer-xl);
+
+  @media (min-width: 768px /* var(--small-laptop) */) {
+    text-align: right;
+  }
+}
