@@ -1,13 +1,15 @@
 import { type INJImageProps, NJFullSection, NJImageSection1 } from '@neja-digital/react-ui'
+import mobileImgUrl from '/src/assets/static/images/about-image-34-mobile.webp'
+import tabletImgUrl from '/src/assets/static/images/about-image-34-tablet.webp'
 
 export default function AboutSection() {
-  const mobileImage = '/src/assets/static/images/about-image-34-mobile.jpg 460w'
-  const tabletImage = '/src/assets/static/images/about-image-34-tablet.jpg 600w'
+  const mobileImage = `${mobileImgUrl} 460w`
+  const tabletImage = `${tabletImgUrl} 600w`
   
   const imgData: INJImageProps = {
     srcSet: `${mobileImage}, ${tabletImage}`,
     sizes: '(width >= 600px) 600px, 460px',
-    src: '/src/assets/static/images/about-image-34-mobile.jpg',
+    src: mobileImgUrl,
     alt: 'urban coffee about',
   }
 

@@ -1,13 +1,17 @@
 import { NJButton, NJFeaturedSection1, NJFullSection, type INJCardProps } from '@neja-digital/react-ui'
 import '/src/assets/css/card.css'
 
+import espressoImgUrl from '/src/assets/static/images/featured-espresso-43.webp'
+import flatWhiteImgUrl from '/src/assets/static/images/featured-flatwhite-43.webp'
+import coldBrewImgUrl from '/src/assets/static/images/featured-coldbrew-43.webp'
+
 export default function NJFeaturedSection() {
   const featuredDrinks: INJCardProps[] = [{
     njTitle: 'Espresso',
     njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
         'Sit amet consectetur adipiscing elit quisque faucibus ex.',
     njImgData: {
-      src: '/src/assets/static/images/featured-espresso-43.jpg',
+      src: espressoImgUrl,
       alt: 'coffee shop signature espresso',
     },
     njRounded: 'medium',
@@ -19,7 +23,7 @@ export default function NJFeaturedSection() {
     njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
         'Sit amet consectetur adipiscing elit quisque faucibus ex.',
     njImgData: {
-      src: '/src/assets/static/images/featured-flatwhite-43.jpg',
+      src: flatWhiteImgUrl,
       alt: 'coffee shop flat white',
     },
     njRounded: 'medium',
@@ -31,7 +35,7 @@ export default function NJFeaturedSection() {
     njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
         'Sit amet consectetur adipiscing elit quisque faucibus ex.',
     njImgData: {
-      src: '/src/assets/static/images/featured-coldbrew-43.jpg',
+      src: coldBrewImgUrl,
       alt: 'coffee shop cold brew',
     },
     njRounded: 'medium',

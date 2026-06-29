@@ -1,4 +1,5 @@
 import { NJButton, NJCard, NJFullSection, NJTextSection1, type TNJCardProps } from '@neja-digital/react-ui'
+import experienceImgUrl from '/src/assets/static/images/highlights.webp'
 
 export default function ExperienceSection() {
   const contentJsx = (
@@ -33,7 +34,7 @@ export default function ExperienceSection() {
     njTitle: 'Highlights',
     njContent: highlightsContentJsx,
     njImgData: {
-      src: '/src/assets/static/images/highlights.jpg',
+      src: experienceImgUrl,
       alt: 'coffee shop best features',
     },
     njRounded: 'medium',

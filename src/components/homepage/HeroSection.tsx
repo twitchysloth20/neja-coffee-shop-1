@@ -1,11 +1,15 @@
 import { type INJHeroBackground, NJButton, NJHeroSection1 } from '@neja-digital/react-ui'
+import mobileBgUrl from '/src/assets/static/images/hero-image-2-mobile.webp'
+import tabletBgUrl from '/src/assets/static/images/hero-image-2-tablet.webp'
+import tabletHBgUrl from '/src/assets/static/images/hero-image-2-tablet-2.webp'
+import desktopBgUrl from '/src/assets/static/images/hero-image-2-desktop.webp'
 
 export default function HeroSection() {
   const heroBackground: INJHeroBackground = {
-    mobileBg: '/src/assets/static/images/hero-image-2-mobile.jpg',
-    tabletBg: '/src/assets/static/images/hero-image-2-tablet.jpg',
-    tabletHBg: '/src/assets/static/images/hero-image-2-tablet-2.jpg',
-    desktopBg: '/src/assets/static/images/hero-image-2-desktop.jpg',
+    mobileBg: mobileBgUrl,
+    tabletBg: tabletBgUrl,
+    tabletHBg: tabletHBgUrl,
+    desktopBg: desktopBgUrl,
   }
 
   const ctaButtons = (

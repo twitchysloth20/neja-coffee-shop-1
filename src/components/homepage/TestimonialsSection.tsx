@@ -18,7 +18,7 @@ export default function TestimonialsSection() {
     njRating: 5,
   }]
 
-  const testimonialsJsx = reviews.map(review => <NJTestimonial {...review} />)
+  const testimonialsJsx = reviews.map(review => <NJTestimonial key={review.njAuthor} {...review} />)
 
   return (
     <>
