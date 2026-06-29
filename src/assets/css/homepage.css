@@ -1,6 +1,7 @@
 @import "./experience.css";
 @import "./featured.css";
 @import "./hero.css";
+@import "./testimonials.css";
 
 .content-wrapper {
   max-width: 1440px;

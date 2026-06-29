@@ -3,7 +3,7 @@ import '/src/assets/css/card.css'
 
 export default function NJFeaturedSection() {
   const featuredDrinks: INJCardProps[] = [{
-    njTitle: 'Signature Espresso',
+    njTitle: 'Espresso',
     njText: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
         'Sit amet consectetur adipiscing elit quisque faucibus ex.',
     njImgData: {

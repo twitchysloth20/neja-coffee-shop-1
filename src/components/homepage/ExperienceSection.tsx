@@ -45,8 +45,18 @@ export default function ExperienceSection() {
     <NJCard {...highlightsProps} />
   )
 
+  const goToTestimonials = () => {
+    document.getElementById('testimonials')?.scrollIntoView({
+      behavior: 'smooth',
+    })
+  }
+
   const ctaButtonsJsx = (
-    <NJButton njVariant="solid" njColor="primary" njRounded="tight">
+    <NJButton
+      njVariant="solid"
+      njColor="primary"
+      njRounded="tight"
+      onClick={goToTestimonials}>
       Check what others have said
     </NJButton>
   )

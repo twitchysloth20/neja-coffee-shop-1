@@ -1,0 +1,19 @@
+.testimonials-section {
+  display: block;
+  text-align: center;
+
+  .testimonials__title {
+    font-size: var(--text-3xl);
+  }
+
+  .testimonials__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacer-2xl);
+    flex-wrap: wrap;
+
+    @media (min-width: 1024px /* var(--desktop) */) {
+      flex-wrap: nowrap;
+    }
+  }
+}
