@@ -24,7 +24,7 @@ export default function TestimonialsSection() {
     <>
       <NJFullSection id="testimonials" njBackground="surface">
         <NJTextSection1 className="content-wrapper testimonials-section">
-          <h2 className="testimonials__title">Our customers' thoughts</h2>
+          <h2 className="testimonials__title section__title">Our customers' thoughts</h2>
           <div className="testimonials__wrapper">
             {testimonialsJsx}
           </div>

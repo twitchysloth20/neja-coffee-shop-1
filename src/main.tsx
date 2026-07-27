@@ -6,6 +6,7 @@ import { NJSystem } from '@neja-digital/react-ui'
 import '@neja-digital/react-ui/react-ui.css'
 import Homepage from './pages/Homepage'
 import './assets/css/main.css'
+import { CookieManager } from 'react-cookie-manager'
 
 const theme: TNJTheme = {
   colors: {
@@ -25,8 +26,10 @@ const theme: TNJTheme = {
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <NJSystem theme={theme}>
-      <Homepage />
-    </NJSystem>
+    <CookieManager>
+      <NJSystem theme={theme}>
+        <Homepage />
+      </NJSystem>
+    </CookieManager>
   </StrictMode>,
 )

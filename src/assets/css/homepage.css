@@ -1,3 +1,4 @@
+@import "./contact.css";
 @import "./experience.css";
 @import "./featured.css";
 @import "./hero.css";
@@ -7,8 +8,19 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: var(--spacer-lg);
+  padding-bottom: calc(2 * var(--spacer-2xl));
 
   @media (min-width: 600px /* var(--tablet) */) {
     padding: var(--spacer-2xl);
+    padding-bottom: calc(2 * var(--spacer-2xl));
   }
+}
+
+.experience-section {
+  padding-top: calc(2 * var(--spacer-2xl));
+}
+
+.section__title {
+  font-size: var(--text-3xl);
+  text-align: center;
 }
