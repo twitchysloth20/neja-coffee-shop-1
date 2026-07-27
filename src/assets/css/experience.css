@@ -1,6 +1,4 @@
 .experience-section {
-  padding-top: calc(2 * var(--spacer-2xl));
-
   .nj-text-section__first {
     flex-grow: 0;
   }

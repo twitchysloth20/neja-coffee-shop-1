@@ -19,7 +19,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@neja-digital/react-ui": "git://github.com/neja-digital/react-ui#section/contact",
+    "@neja-digital/react-ui": "0.5.0",
     "react": "^19.2.6",
     "react-cookie-manager": "^5.3.0",
     "react-dom": "^19.2.6",
