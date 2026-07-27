@@ -57,7 +57,8 @@ export default function ExperienceSection() {
       njVariant="solid"
       njColor="primary"
       njRounded="tight"
-      onClick={goToTestimonials}>
+      onClick={goToTestimonials}
+    >
       Check what others have said
     </NJButton>
   )
@@ -65,7 +66,7 @@ export default function ExperienceSection() {
   return (
     <NJFullSection>
       <NJTextSection1
-        className="content-wrapper"
+        className="content-wrapper experience-section"
         njTitle="The Experience"
         njContent={contentJsx}
         njHighlights={highlightsJsx}

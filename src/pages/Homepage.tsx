@@ -1,4 +1,5 @@
 import AboutSection from '../components/homepage/AboutSection'
+import ContactSection from '../components/homepage/ContactSection'
 import ExperienceSection from '../components/homepage/ExperienceSection'
 import FeaturedSection from '../components/homepage/FeaturedSection'
 import HeroSection from '../components/homepage/HeroSection'
@@ -14,6 +15,7 @@ export default function Homepage() {
         <AboutSection />
         <ExperienceSection />
         <TestimonialsSection />
+        <ContactSection />
       </main>
     </>
   )

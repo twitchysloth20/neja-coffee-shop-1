@@ -27,6 +27,7 @@ export default defineConfig([
       "@stylistic/comma-dangle": ["error", "always-multiline"],
       "@stylistic/max-len": ["error", {
         "code": 120,
+        "ignoreStrings": true,
       }],
       "@stylistic/indent": ["error", 2],
       "@stylistic/no-multiple-empty-lines": ["error", {

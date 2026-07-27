@@ -2,10 +2,6 @@
   display: block;
   text-align: center;
 
-  .testimonials__title {
-    font-size: var(--text-3xl);
-  }
-
   .testimonials__wrapper {
     display: flex;
     justify-content: center;
