@@ -1,17 +1,17 @@
-import { type INJImageProps, NJFullSection, NJImageSection1 } from '@neja-digital/react-ui'
-import mobileImgUrl from '/src/assets/static/images/about-image-34-mobile.webp'
-import tabletImgUrl from '/src/assets/static/images/about-image-34-tablet.webp'
+import { type INJImageProps, NJFullSection, NJImageSection1 } from '@neja-digital/react-ui';
+import mobileImgUrl from '/src/assets/static/images/about-image-34-mobile.webp';
+import tabletImgUrl from '/src/assets/static/images/about-image-34-tablet.webp';
 
 export default function AboutSection() {
-  const mobileImage = `${mobileImgUrl} 460w`
-  const tabletImage = `${tabletImgUrl} 600w`
+  const mobileImage = `${mobileImgUrl} 460w`;
+  const tabletImage = `${tabletImgUrl} 600w`;
   
   const imgData: INJImageProps = {
     srcSet: `${mobileImage}, ${tabletImage}`,
     sizes: '(width >= 600px) 600px, 460px',
     src: mobileImgUrl,
     alt: 'urban coffee about',
-  }
+  };
 
   const aboutContent = (
     <>
@@ -31,7 +31,7 @@ export default function AboutSection() {
         details and create a space where people feel at home.
       </p>
     </>
-  )
+  );
 
   return (
     <NJFullSection njBackground="surface">
@@ -42,5 +42,5 @@ export default function AboutSection() {
         njTitle="More than just coffee"
         njContent={aboutContent} />
     </NJFullSection>
-  )
+  );
 }

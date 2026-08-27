@@ -1,12 +1,11 @@
-import AboutSection from '../components/homepage/AboutSection'
-import ContactSection from '../components/homepage/ContactSection'
-import ExperienceSection from '../components/homepage/ExperienceSection'
-import FeaturedSection from '../components/homepage/FeaturedSection'
-import HeroSection from '../components/homepage/HeroSection'
-import TestimonialsSection from '../components/homepage/TestimonialsSection'
+import AboutSection from '../components/homepage/AboutSection';
+import ContactSection from '../components/homepage/ContactSection';
+import ExperienceSection from '../components/homepage/ExperienceSection';
+import FeaturedSection from '../components/homepage/FeaturedSection';
+import HeroSection from '../components/homepage/HeroSection';
+import TestimonialsSection from '../components/homepage/TestimonialsSection';
 
 export default function Homepage() {
-
   return (
     <>
       <HeroSection />
@@ -18,5 +17,5 @@ export default function Homepage() {
         <ContactSection />
       </main>
     </>
-  )
+  );
 }

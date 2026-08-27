@@ -1,19 +1,19 @@
-import { NJButton, NJInput, NJTextArea } from '@neja-digital/react-ui'
-import { useState, type MouseEvent } from 'react'
+import { NJButton, NJInput, NJTextArea } from '@neja-digital/react-ui';
+import { useState, type MouseEvent } from 'react';
 
 export default function ContactForm() {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const sendMessage = (e: MouseEvent<HTMLElement>) => {
-    e.preventDefault()
-    console.log(name, email, message)
+    e.preventDefault();
+    console.log(name, email, message);
     // send message here
-    setName('')
-    setEmail('')
-    setMessage('')
-  }
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
 
   return (
     <section className="contact__form-wrapper">
@@ -63,5 +63,5 @@ export default function ContactForm() {
         </NJButton>
       </form>
     </section>
-  )
+  );
 }

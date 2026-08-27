@@ -1,5 +1,5 @@
-import { NJFullSection, NJTextSection1, NJContactDetails } from '@neja-digital/react-ui'
-import ContactForm from '../contact/ContactForm'
+import { NJFullSection, NJTextSection1, NJContactDetails } from '@neja-digital/react-ui';
+import ContactForm from '../contact/ContactForm';
 
 export default function ContactSection() {
   const openingHours = (
@@ -11,7 +11,7 @@ export default function ContactSection() {
         <li><strong>Sun</strong>: Closed</li>
       </ul>
     </>
-  )
+  );
 
   const contactInfo = (
     <>
@@ -20,7 +20,7 @@ export default function ContactSection() {
       <p><strong>Email:</strong> <span>contact@coffee.shop</span></p>
       <p><strong>Phone:</strong> <span>+(01) 234 456 789</span></p>
     </>
-  )
+  );
 
   return (
     <NJFullSection njBackground="background">
@@ -42,5 +42,5 @@ export default function ContactSection() {
         </section>
       </NJTextSection1>
     </NJFullSection>
-  )
+  );
 }

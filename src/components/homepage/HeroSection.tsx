@@ -1,8 +1,8 @@
-import { type INJHeroBackground, NJButton, NJHeroSection1 } from '@neja-digital/react-ui'
-import mobileBgUrl from '/src/assets/static/images/hero-image-2-mobile.webp'
-import tabletBgUrl from '/src/assets/static/images/hero-image-2-tablet.webp'
-import tabletHBgUrl from '/src/assets/static/images/hero-image-2-tablet-2.webp'
-import desktopBgUrl from '/src/assets/static/images/hero-image-2-desktop.webp'
+import { type INJHeroBackground, NJButton, NJHeroSection1 } from '@neja-digital/react-ui';
+import mobileBgUrl from '/src/assets/static/images/hero-image-2-mobile.webp';
+import tabletBgUrl from '/src/assets/static/images/hero-image-2-tablet.webp';
+import tabletHBgUrl from '/src/assets/static/images/hero-image-2-tablet-2.webp';
+import desktopBgUrl from '/src/assets/static/images/hero-image-2-desktop.webp';
 
 export default function HeroSection() {
   const heroBackground: INJHeroBackground = {
@@ -10,7 +10,7 @@ export default function HeroSection() {
     tabletBg: tabletBgUrl,
     tabletHBg: tabletHBgUrl,
     desktopBg: desktopBgUrl,
-  }
+  };
 
   const ctaButtons = (
     <>
@@ -21,7 +21,7 @@ export default function HeroSection() {
         Book a table
       </NJButton>
     </>
-  )
+  );
   
   return (
     <NJHeroSection1
@@ -33,5 +33,5 @@ export default function HeroSection() {
       njSupporting="A modern neighborhood coffee shop focused on quality, consistency, and calm space"
       njCtaButtons={ctaButtons}
     />
-  )
+  );
 }

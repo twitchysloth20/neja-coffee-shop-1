@@ -41,7 +41,7 @@ export default defineConfig([
       }],
       "@stylistic/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
       "@stylistic/jsx-quotes": ["error", "prefer-double"],
-      "@stylistic/semi": ["error", "never"],
+      "@stylistic/semi": ["error", "always"],
       "@stylistic/indent": ["error", 2],
       "@typescript-eslint/no-explicit-any": ["warn"],
     },
