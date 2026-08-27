@@ -26,7 +26,7 @@ export default function HeroSection() {
   return (
     <NJHeroSection1
       njBackground={heroBackground}
-      njOverlay={0.15}
+      njOverlay={-0.1}
       njBlur={8}
       njHeadline="Coffee made for slow moments in a fast world"
       njSubheadline="Small-batch roasted beans, thoughtfully sourced, and brewed for clarity, comfort and focus"
