@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@neja-digital/react-ui':
-        specifier: 0.5.0
-        version: 0.5.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: 0.5.1
+        version: 0.5.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       react:
         specifier: ^19.2.6
         version: 19.2.8
@@ -244,8 +244,8 @@ packages:
   '@neja-digital/css@0.5.0':
     resolution: {integrity: sha512-RmRyYGQLyENUSuh0Fp32rDk/kbcA0K0DcEnpjqmoWP81Zg5Ha/tN9e68wkc5Ng3Sg915AktRvF+EPoVfWXkS/g==, tarball: https://npm.pkg.github.com/download/@neja-digital/css/0.5.0/eab106e58302c3f7bf136a16b393c0fe9685218f}
 
-  '@neja-digital/react-ui@0.5.0':
-    resolution: {integrity: sha512-wyGEwFJiw+ebwsQPeTd5Vr2C0sCx06sCM00Rcq5q3Zj07YjyRsDCz4HPAukM7E5pdUxvAtvRhbyKrlnwPH5tug==, tarball: https://npm.pkg.github.com/download/@neja-digital/react-ui/0.5.0/96bd6688b9e2598bf635c52265085cb0eeabdf8c}
+  '@neja-digital/react-ui@0.5.1':
+    resolution: {integrity: sha512-akVch6fSxHT416BPvg4967QyzcEMEmPIJC2stB8ZBc4bEfCfZ2NKkhFqgpaku70JwKiU0zI0sYlQ/gBPREWtMA==, tarball: https://npm.pkg.github.com/download/@neja-digital/react-ui/0.5.1/a78ab0fa31443e4d12787d19cafeebe1b9844017}
     peerDependencies:
       react: ^19.2.6
       react-dom: ^19.2.6
@@ -1237,7 +1237,7 @@ snapshots:
 
   '@neja-digital/css@0.5.0': {}
 
-  '@neja-digital/react-ui@0.5.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@neja-digital/react-ui@0.5.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@neja-digital/css': 0.5.0
       react: 19.2.8

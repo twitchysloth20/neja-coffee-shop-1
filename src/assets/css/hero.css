@@ -1,5 +1,6 @@
 .nj-hero__content {
   border-radius: var(--border-radius-medium);
+  background-color: rgba(255, 255, 255, 0.1);
 
   .nj-hero__supporting {
     font-style: italic;

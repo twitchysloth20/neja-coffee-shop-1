@@ -28,7 +28,7 @@ export default function ContactForm() {
           onChange={(e) => setName(e.target.value)}
           njRounded="tight"
           njBorder="thin"
-          njSize="regular"
+          njSize="compact"
           id="name"
         />
         <NJInput
@@ -38,7 +38,7 @@ export default function ContactForm() {
           onChange={(e) => setEmail(e.target.value)}
           njRounded="tight"
           njBorder="thin"
-          njSize="regular"
+          njSize="compact"
           id="email"
         />
         <NJTextArea
@@ -47,7 +47,7 @@ export default function ContactForm() {
           onChange={(e) => setMessage(e.target.value)}
           njRounded="tight"
           njBorder="thin"
-          njSize="regular"
+          njSize="compact"
           rows={5}
           id="message"
           njResize="vertical"

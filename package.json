@@ -22,7 +22,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@neja-digital/react-ui": "0.5.0",
+    "@neja-digital/react-ui": "0.5.1",
     "react": "^19.2.6",
     "react-cookie-manager": "^5.3.0",
     "react-dom": "^19.2.6",
