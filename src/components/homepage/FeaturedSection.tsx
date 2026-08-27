@@ -1,9 +1,9 @@
-import { NJButton, NJFeaturedSection1, NJFullSection, type INJCardProps } from '@neja-digital/react-ui'
-import '/src/assets/css/card.css'
+import { NJButton, NJFeaturedSection1, NJFullSection, type INJCardProps } from '@neja-digital/react-ui';
+import '/src/assets/css/card.css';
 
-import espressoImgUrl from '/src/assets/static/images/featured-espresso-43.webp'
-import flatWhiteImgUrl from '/src/assets/static/images/featured-flatwhite-43.webp'
-import coldBrewImgUrl from '/src/assets/static/images/featured-coldbrew-43.webp'
+import espressoImgUrl from '/src/assets/static/images/featured-espresso-43.webp';
+import flatWhiteImgUrl from '/src/assets/static/images/featured-flatwhite-43.webp';
+import coldBrewImgUrl from '/src/assets/static/images/featured-coldbrew-43.webp';
 
 export default function NJFeaturedSection() {
   const featuredDrinks: INJCardProps[] = [{
@@ -42,13 +42,13 @@ export default function NJFeaturedSection() {
     njRaised: 'medium',
     njColor: 'surface',
     njSize: 'large',
-  }]
+  }];
 
   const featuredCtaButton = (
     <NJButton njVariant="solid" njColor="primary" njRounded="tight">
       See our full menu
     </NJButton>
-  )
+  );
 
   return (
     <NJFullSection>
@@ -59,5 +59,5 @@ export default function NJFeaturedSection() {
         njCtaButtons={featuredCtaButton}
       />
     </NJFullSection>
-  )
+  );
 }

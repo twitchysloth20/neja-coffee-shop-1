@@ -1,5 +1,5 @@
-import { NJButton, NJCard, NJFullSection, NJTextSection1, type TNJCardProps } from '@neja-digital/react-ui'
-import experienceImgUrl from '/src/assets/static/images/highlights.webp'
+import { NJButton, NJCard, NJFullSection, NJTextSection1, type TNJCardProps } from '@neja-digital/react-ui';
+import experienceImgUrl from '/src/assets/static/images/highlights.webp';
 
 export default function ExperienceSection() {
   const contentJsx = (
@@ -19,7 +19,7 @@ export default function ExperienceSection() {
         vitae. Ex sapien vitae pellentesque sem placerat in id.
       </p>
     </>
-  )
+  );
 
   const highlightsContentJsx = (
     <ul className="highlights-list">
@@ -28,7 +28,7 @@ export default function ExperienceSection() {
       <li>Low-volume ambient music</li>
       <li>Some of the best coffee in town</li>
     </ul>
-  )
+  );
 
   const highlightsProps: TNJCardProps = {
     njTitle: 'Highlights',
@@ -40,17 +40,17 @@ export default function ExperienceSection() {
     njRounded: 'medium',
     njRaised: 'medium',
     njColor: 'surface',
-  }
+  };
 
   const highlightsJsx = (
     <NJCard {...highlightsProps} />
-  )
+  );
 
   const goToTestimonials = () => {
     document.getElementById('testimonials')?.scrollIntoView({
       behavior: 'smooth',
-    })
-  }
+    });
+  };
 
   const ctaButtonsJsx = (
     <NJButton
@@ -61,7 +61,7 @@ export default function ExperienceSection() {
     >
       Check what others have said
     </NJButton>
-  )
+  );
 
   return (
     <NJFullSection>
@@ -75,5 +75,5 @@ export default function ExperienceSection() {
         njCtaButtonsPos="first"
       />
     </NJFullSection>
-  )
+  );
 }

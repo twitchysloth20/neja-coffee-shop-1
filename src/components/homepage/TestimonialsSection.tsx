@@ -1,4 +1,4 @@
-import { NJFullSection, NJTestimonial, NJTextSection1, type INJTestimonialProps } from '@neja-digital/react-ui'
+import { NJFullSection, NJTestimonial, NJTextSection1, type INJTestimonialProps } from '@neja-digital/react-ui';
 
 export default function TestimonialsSection() {
   const reviews: INJTestimonialProps[] = [{
@@ -16,9 +16,9 @@ export default function TestimonialsSection() {
     njReview: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. ' +
         'Sit amet consectetur adipiscing elit quisque faucibus ex.',
     njRating: 5,
-  }]
+  }];
 
-  const testimonialsJsx = reviews.map(review => <NJTestimonial key={review.njAuthor} {...review} />)
+  const testimonialsJsx = reviews.map(review => <NJTestimonial key={review.njAuthor} {...review} />);
 
   return (
     <>
@@ -31,5 +31,5 @@ export default function TestimonialsSection() {
         </NJTextSection1>
       </NJFullSection>
     </>
-  )
+  );
 }
