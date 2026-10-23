@@ -1,3 +1,7 @@
-pnpm lint:fix &&
-git add -A &&
+files=$(git diff --cached --name-only --diff-filter=ACMR -- 'src/*.ts' 'src/*.tsx')
+
+if [ -n "$files" ]; then
+  echo "$files" | xargs pnpm exec eslint --fix &&
+  echo "$files" | xargs git add
+fi &&
 pnpm type-check

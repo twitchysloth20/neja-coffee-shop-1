@@ -10,7 +10,7 @@ export default function AboutSection() {
     srcSet: `${mobileImage}, ${tabletImage}`,
     sizes: '(width >= 600px) 600px, 460px',
     src: mobileImgUrl,
-    alt: 'urban coffee about',
+    alt: 'Barista pouring fresh coffee at the counter of our coffee shop',
   };
 
   const aboutContent = (
