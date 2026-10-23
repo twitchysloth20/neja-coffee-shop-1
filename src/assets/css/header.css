@@ -1,0 +1,41 @@
+.site-header {
+  position: relative;
+
+  .site-header__routes {
+    display: none;
+  }
+
+  .site-header__toggle {
+    display: inline-flex;
+  }
+
+  .site-header__menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .nj-mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacer-md);
+    padding: var(--spacer-md) var(--spacer-lg);
+    background-color: var(--background);
+  }
+}
+
+@media (min-width: 768px /* var(--small-laptop) */) {
+  .site-header {
+    .site-header__routes {
+      display: flex;
+      gap: var(--spacer-lg);
+    }
+
+    .site-header__toggle,
+    .site-header__menu {
+      display: none;
+    }
+  }
+}
