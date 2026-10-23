@@ -27,7 +27,9 @@ export default function Header() {
   }, [width]);
 
   const routesJsx = isMobile
-    ? <NJButton><FaBars /></NJButton>
+    ? <NJButton>
+      <FaBars />
+    </NJButton>
     : visibleRoutesJsx;
 
   return (
