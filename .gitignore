@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.npmrc
+
+# React Router build output and generated types
+build
+.react-router

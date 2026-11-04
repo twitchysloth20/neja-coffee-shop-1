@@ -29,6 +29,7 @@ export default function ContactSection() {
         <section className="contact__map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24388.003289740103!2d17.247569096470347!3d63.16716200224437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4664d685e720899d%3A0x9529f31de9c0e69b!2sSollefte%C3%A5%2C%20Sweden!5e1!3m2!1sen!2sro!4v1782726815041!5m2!1sen!2sro"
+            title="Map showing the location of the coffee shop"
             loading="lazy"
           />
         </section>

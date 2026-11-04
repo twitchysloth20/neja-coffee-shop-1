@@ -1,9 +1,3 @@
-onlyBuiltDependencies:
-  - "@neja-digital/react-ui"
-
-allowBuilds:
-  "@neja-digital/react-ui": true
-
 blockExoticSubdeps: false
 
 minimumReleaseAgeExclude:
