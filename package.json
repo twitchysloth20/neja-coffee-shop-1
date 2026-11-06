@@ -12,7 +12,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@neja-digital/react-ui": "^0.6.0",
+    "@neja-digital/react-ui": "^0.6.1",
     "isbot": "^5",
     "react": "^19.3.0",
     "react-cookie-manager": "^5.4.1",
@@ -21,10 +21,9 @@
   },
   "devDependencies": {
     "@babel/core": "^8.0.7",
-    "@eslint/js": "^10.0.1",
+    "@neja-digital/config": "^0.1.0",
     "@react-router/dev": "^8.4.0",
     "@rolldown/plugin-babel": "^0.2.4",
-    "@stylistic/eslint-plugin": "^5.10.0",
     "@types/babel__core": "^7.20.5",
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
@@ -32,12 +31,8 @@
     "@vitejs/plugin-react": "^6.1.2",
     "babel-plugin-react-compiler": "^1.0.0",
     "eslint": "^10.12.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.7",
-    "globals": "^17.13.0",
     "husky": "^9.1.7",
     "typescript": "~6.0.2",
-    "typescript-eslint": "^8.71.2",
     "vite": "^8.3.4"
   }
 }
