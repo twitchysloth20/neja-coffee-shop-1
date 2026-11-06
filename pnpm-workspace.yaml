@@ -3,3 +3,4 @@ blockExoticSubdeps: false
 minimumReleaseAgeExclude:
   - '@neja-digital/css'
   - '@neja-digital/react-ui'
+  - '@neja-digital/config@0.1.0'

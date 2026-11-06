@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@neja-digital/react-ui':
-        specifier: ^0.6.0
-        version: 0.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: ^0.6.1
+        version: 0.6.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       isbot:
         specifier: ^5
         version: 5.2.2
@@ -30,18 +30,15 @@ importers:
       '@babel/core':
         specifier: ^8.0.7
         version: 8.1.0
-      '@eslint/js':
-        specifier: ^10.0.1
-        version: 10.0.1(eslint@10.14.0)
+      '@neja-digital/config':
+        specifier: ^0.1.0
+        version: 0.1.0(eslint@10.14.0)(typescript@6.0.3)
       '@react-router/dev':
         specifier: ^8.4.0
         version: 8.5.1(react-router@8.5.1(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(typescript@6.0.3)(vite@8.3.5(@types/node@26.6.6))
       '@rolldown/plugin-babel':
         specifier: ^0.2.4
         version: 0.2.4(@babel/core@8.1.0)(rolldown@1.2.16)(vite@8.3.5(@types/node@26.6.6))
-      '@stylistic/eslint-plugin':
-        specifier: ^5.10.0
-        version: 5.10.0(eslint@10.14.0)
       '@types/babel__core':
         specifier: ^7.20.5
         version: 7.20.5
@@ -63,24 +60,12 @@ importers:
       eslint:
         specifier: ^10.12.0
         version: 10.14.0
-      eslint-plugin-react-hooks:
-        specifier: ^7.1.1
-        version: 7.1.1(eslint@10.14.0)
-      eslint-plugin-react-refresh:
-        specifier: ^0.5.7
-        version: 0.5.7(eslint@10.14.0)
-      globals:
-        specifier: ^17.13.0
-        version: 17.14.0
       husky:
         specifier: ^9.1.7
         version: 9.1.7
       typescript:
         specifier: ~6.0.2
         version: 6.0.3
-      typescript-eslint:
-        specifier: ^8.71.2
-        version: 8.72.1(eslint@10.14.0)(typescript@6.0.3)
       vite:
         specifier: ^8.3.4
         version: 8.3.5(@types/node@26.6.6)
@@ -304,8 +289,14 @@ packages:
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
 
-  '@neja-digital/react-ui@0.6.0':
-    resolution: {integrity: sha512-icY8R/GuMb/2huZhMORjItnqRSZt54DnIykXiaMBkq/9QW6ALs2clVDkP8I9/SiInzCymhnxQSHFPmo1TNfrQg==, tarball: https://npm.pkg.github.com/download/@neja-digital/react-ui/0.6.0/09a094f4499e337dabf5e75947350ecb7184c2ca}
+  '@neja-digital/config@0.1.0':
+    resolution: {integrity: sha512-5dQq8GvhBxbZlC/5bojLbpRbvcQG2xtyTO27xP3LJtH+xJqtc3k15eAgdP29dalmIwMPAD0z/qwcsX+TZFmISg==, tarball: https://npm.pkg.github.com/download/@neja-digital/config/0.1.0/7d842c197a7a1b7b495aeb0e8884d30faf77c2f7}
+    peerDependencies:
+      eslint: ^10.0.0
+      typescript: '>=5.9.0'
+
+  '@neja-digital/react-ui@0.6.1':
+    resolution: {integrity: sha512-sc++nkj2W5gyoSnMhz+Tb2g+aa2UzxTWsiB/F8nE2mQtn642xpNWDw+H5pv3gCwQ57IYjbqaIDLeP5kk3avn5w==, tarball: https://npm.pkg.github.com/download/@neja-digital/react-ui/0.6.1/fd60a968220a2d8512271bae22a9127ce033ba78}
     peerDependencies:
       react: ^19.2.6
       react-dom: ^19.2.6
@@ -1524,7 +1515,20 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@neja-digital/react-ui@0.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
+  '@neja-digital/config@0.1.0(eslint@10.14.0)(typescript@6.0.3)':
+    dependencies:
+      '@eslint/js': 10.0.1(eslint@10.14.0)
+      '@stylistic/eslint-plugin': 5.10.0(eslint@10.14.0)
+      eslint: 10.14.0
+      eslint-plugin-react-hooks: 7.1.1(eslint@10.14.0)
+      eslint-plugin-react-refresh: 0.5.7(eslint@10.14.0)
+      globals: 17.14.0
+      typescript: 6.0.3
+      typescript-eslint: 8.72.1(eslint@10.14.0)(typescript@6.0.3)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@neja-digital/react-ui@0.6.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       classnames: 2.5.1
       react: 19.3.1

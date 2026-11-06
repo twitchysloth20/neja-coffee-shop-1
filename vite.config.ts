@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import { reactCompilerPreset } from '@vitejs/plugin-react';
 import babel from '@rolldown/plugin-babel';
-import { reactRouter } from "@react-router/dev/vite";
+import { reactRouter } from '@react-router/dev/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
